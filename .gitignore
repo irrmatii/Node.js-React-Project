@@ -21,7 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Ignore frontend and backend directories
-frontend/
-backend/
