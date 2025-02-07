@@ -1,0 +1,21 @@
+.msg_box{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: rgba(6, 49, 63, 0.05);
+    backdrop-filter: blur(25px);    /* Apply blur to background */
+    box-shadow: 0 4px 10px #06313f;    /* Soft shadow */
+    border: 1px solid #06313f;
+    border-radius: 10px;
+}
+
+.req_box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text_col{
+    width: 100%;
+
+}

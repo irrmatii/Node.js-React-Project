@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(ellipse at center,#06313f , #010e11 60%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  color: #f1eacf;
+}
+
+ul{
+  display: flex;
+  gap: 60px;
+}
+
+li {
+  list-style: none;
+  color: cornsilk;
+  font-weight: 600;
+  font-size: 18px;
+  transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+li:hover {
+  color: #cb7039;
+  text-shadow: 0 0 10px #cb7039;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+input{
+  max-width: 300px;
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  color: #cb7039;
+  border: none;
+  border-bottom: 1px solid cornsilk;
+  outline: none;
+}
+
+input:focus {
+  border-bottom: 2px solid #cb7039;
+}
+
+input::placeholder {
+  color: cornsilk;
+}
+
+button{
+  border-radius: 10px;
+  border: 1px solid cornsilk;
+  background-color: #06313f;
+  color: #f1eacf;
+  text-shadow: 0 0 10px #c48e72;
+  transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+
+button:hover{
+  border: 1px solid #cb7039;
+  color: #cb7039;
+  text-shadow: 0 0 10px #cb7039;
+}
+
+
+
+.users_con{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.users_col{
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sideBar{
+  width: 30%;
+  padding: 10px;
+  background: rgba(216, 236, 243, 0.02);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.text_box{
+  width: 100%;
+  height: 250px;
+  background: rgba(6, 49, 63, 0.05);
+  backdrop-filter: blur(25px);    /* Apply blur to background */
+  box-shadow: 0 4px 10px #06313f;    /* Soft shadow */
+  border: 1px solid #06313f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+textarea{
+  background: rgba(6, 49, 63, 0.16);
+  color: cornsilk;
+  padding: 5px;
+}
+
+.send_btn{
+  max-width: 150px;
+  width: 100%;
+}
+
+.receiver{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.sendTo{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.msg_con{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  overflow: auto;
+}
+
+p{
+  font-size: 12px;
+}
+
+/*  Color Cards*/
+
+.create_con{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create_box{
+  max-width: 250px;
+  width: 100%;
+  height: 150px;
+  background: rgba(6, 49, 63, 0.05);
+  backdrop-filter: blur(25px);    /* Apply blur to background */
+  box-shadow: 0 4px 10px #06313f;    /* Soft shadow */
+  border: 1px solid #06313f;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.all_cards{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.f-col{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title_col{
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_col{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_place{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orange{
+  color: #cb7039;
+}
